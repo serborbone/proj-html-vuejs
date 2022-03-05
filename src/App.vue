@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <headerPorto></headerPorto>
+    <headerPorto :blueNav="headerTopNav" :btmNav="headerBottomNav"></headerPorto>
     <mainPorto></mainPorto>
     <footerPorto></footerPorto>
   </div>
@@ -19,6 +19,54 @@ export default {
       headerPorto,
       mainPorto,
       footerPorto,
+  },
+
+  data() {
+    return {
+       
+       //TOP MENU blu NAV header
+       headerTopNav: [
+
+          {
+            link: 'Sign in',
+          },
+          {
+            link: 'About us',
+          },
+          {
+            link: 'Contact us',
+          },
+          {
+            link: 'Buy now',
+          },
+
+       ],
+       
+       //BOTTOM MENU NAV Header
+       headerBottomNav: [
+          {
+            link: 'Home',
+          },
+          {
+            link: 'Elements',
+          },
+          {
+            link: 'Features',
+          },
+          {
+            link: 'Pages',
+          },
+          {
+            link: 'Portfolio',
+          },
+          {
+            link: 'Blog',
+          },
+          {
+            link: 'Shop',
+          },
+       ],
+    }
   }
 }
 </script>

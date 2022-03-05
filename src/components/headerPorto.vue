@@ -8,14 +8,13 @@
                 <h1>Everything about Lifestyle, Travel and Gadgets!</h1>
             </div>
 
-            <!-- Link Menu nav blu -->
+            <!-- LINK MENU NAV BLU -->
             <nav>
                 <div class="t-nav-li">
                     <ul>
-                        <li><a href="#">Sign In</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Buy Now</a></li>
+                        <li v-for="(links, index) in blueNav" :key="index">
+                            <a href="#">{{links.link}}</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -40,13 +39,9 @@
 
               <div class="left-nav-link">
                   <ul>
-                      <li><a href="">Home</a></li>
-                      <li><a href="">Elements</a></li>
-                      <li><a href="">Features</a></li>
-                      <li><a href="">Pages</a></li>
-                      <li><a href="">Portfolio</a></li>
-                      <li><a href="">Blog</a></li>
-                      <li><a href="">Shop</a></li>
+                      <li v-for="(links, index) in btmNav" :key="index">
+                          <a href="">{{links.link}}</a>
+                      </li>
                   </ul>
               </div>
 
@@ -64,6 +59,12 @@
 <script>
 export default {
   name: 'headerPorto',
+
+  props: {
+      blueNav: Array,
+      btmNav: Array,
+  },
+  
 }
 </script>
 
