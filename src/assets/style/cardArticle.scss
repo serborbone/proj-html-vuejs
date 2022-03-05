@@ -1,0 +1,74 @@
+@import './variablesPorto.scss';
+
+#cardComponent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 0;
+  gap: 28px;
+}
+
+.card-article {
+  width: calc(100% / 3 - 20px);
+  height: 300px;
+  color: #fff;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .text-wrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 25px;
+    bottom: 0;
+    background-color: rgba(64, 64, 64, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    .tag-article {
+    background-color: #0074ad;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 6px 10px;
+    font-weight: 600;
+    font-size: 0.75em;
+    text-align: center;
+    }
+
+    h3 {
+      margin-top: 7px;
+      font-size: 1.25em;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+      }
+    }
+
+    .sub-text {
+      color: #888888; 
+      font-size: 0.9em;
+      margin-top: 12px;
+      line-height: 23px;
+      display: none;
+    }
+  
+  }
+  
+}
+
+.card-article:hover > .text-wrap .sub-text {
+  display: flex;
+}
+
+.card-article:hover > .text-wrap {
+  background-color: rgba(33, 37, 41, 0.8);
+}
