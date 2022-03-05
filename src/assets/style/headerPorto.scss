@@ -73,15 +73,44 @@
         a {
           color: #333333;
           text-decoration: none;
-          padding: 10px;
-        }
-
-        .pl-0 {
-          padding-left: 0;
+          padding: 10px 20px 10px 0;
         }
       }
 
     }
+  }
+
+  .right-searchbar {
+    width: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-left: 1px solid #d6d6d6;
+    transition: width 1s;
+
+    .pos-icon {
+      position: absolute;
+      margin-left: 8px;
+      color: #333333;
+    }
+
+    input {
+      width: 100%;
+      padding: 4px 0 4px 30px;
+      border: none;
+    }
+
+    
+  }
+
+  .right-searchbar:hover {
+      width: 250px;
+  }
+
+  .right-searchbar:hover > input {
+    border: 1px solid #333333;
+    border-radius: 5px;
   }
 
 }

@@ -40,18 +40,18 @@
 
               <div class="left-nav-link">
                   <ul>
-                      <li><a href="" class="pl-0">Home</a></li>
+                      <li><a href="">Home</a></li>
                       <li><a href="">Elements</a></li>
                       <li><a href="">Features</a></li>
                       <li><a href="">Pages</a></li>
                       <li><a href="">Portfolio</a></li>
                       <li><a href="">Blog</a></li>
                       <li><a href="">Shop</a></li>
-
                   </ul>
               </div>
 
               <div class="right-searchbar">
+                  <i class="pos-icon fa-solid fa-magnifying-glass"></i>
                   <input type="search">
               </div>
 
