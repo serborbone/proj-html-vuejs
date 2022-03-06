@@ -29,7 +29,6 @@ export default {
   @import '../assets/style/postCol.scss';
 
   #postCol {
-    height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

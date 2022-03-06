@@ -4,20 +4,22 @@
   width: calc(100% / 3 - 20px);
 
   h3 {
-      margin-bottom: 40px;
+      margin-bottom: 37px;
       text-transform: uppercase;
       font-size: 0.9em;
       color: $light-black;
   }
 
+  /*** CARD FEATURED POSTS ***/
   .card-feat {
+    width: 100%;
+    height: 200px;
     position: relative;
     color: #fff;
 
     img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
     }
 
     .text-wrap {
@@ -31,29 +33,79 @@
       flex-direction: column;
       justify-content: flex-end;
       align-items: flex-start;
-    }
 
-    .tag-article {
-      background-color: #0074ad;
-      text-transform: uppercase;
-      border-radius: 3px;
-      padding: 6px 10px;
-      font-weight: 600;
-      font-size: 0.75em;
-      text-align: center;
-    }
-
-    h4 {
-      margin-top: 7px;
-      font-size: 1.25em;
-
-      a {
-        color: #fff;
-        text-decoration: none;
-        font-weight: 700;
+      .tag-article {
+        background-color: #0074ad;
+        text-transform: uppercase;
+        border-radius: 3px;
+        padding: 6px 10px;
+        font-weight: 600;
+        font-size: 0.75em;
+        text-align: center;
       }
+
+      
+      h4 {
+        margin-top: 7px;
+        font-size: 1.25em;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: 700;
+        }
+     }
+
     }
 
+  }
+
+  /*** FEATURED AUTHOR STYLE ***/
+  .feat-author {
+    margin-top: 30px;
+
+     h3 {
+      margin-bottom: 20px;
+     }
+
+    .author-wrap {
+      display: flex;
+
+      .author-img {
+
+        width: 25%;
+        height: 100px;
+
+        img {
+          width: 100%;
+        }
+
+      }
+
+      .info-author {
+        width: 85%;
+        padding-left: 20px;
+        padding-top: 8px;
+
+        h4 {
+          a {
+            text-decoration: none;
+            color: #000;
+          }
+        }
+
+        p {
+          color: #888888;
+          font-size: 0.8em;
+          margin-top: 10px;
+          line-height: 22px;
+        }
+
+      }
+      
+    } 
+    
+    
   }
 
 }
