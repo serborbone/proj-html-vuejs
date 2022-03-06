@@ -15,6 +15,10 @@
         </div>
     </section>
 
+    <section>
+        <tagBar></tagBar>
+    </section>
+
   </main>
 </template>
 
@@ -22,12 +26,14 @@
 
 import cardArticle from './cardArticle.vue'
 import postCol from './postCol.vue'
+import tagBar from './tagBar.vue'
 
 export default {
   name: 'mainPorto',
   components: {
     cardArticle,
     postCol,
+    tagBar,
   },
 
 }
