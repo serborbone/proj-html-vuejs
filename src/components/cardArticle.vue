@@ -1,5 +1,5 @@
 <template>
-  <section id="cardComponent">
+  <div id="cardComponent" class="container-w75">
 
       <!-- ARTICLES -->
       <div class="card-article">
@@ -86,7 +86,7 @@
           <img src="../assets/img/blog-51.jpg" alt="article-image">
       </div>
 
-  </section>
+  </div>
 </template>
 
 <script>

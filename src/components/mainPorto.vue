@@ -4,11 +4,15 @@
     <section>
       <div id="jumbotron">
 
-        <div class="container-w75">
-            <cardArticle></cardArticle>
-        </div>
+        <cardArticle></cardArticle>
 
       </div>
+    </section>
+
+    <section>
+        <div id="post-columns">
+            <postCol></postCol>
+        </div>
     </section>
 
   </main>
@@ -17,11 +21,13 @@
 <script>
 
 import cardArticle from './cardArticle.vue'
+import postCol from './postCol.vue'
 
 export default {
   name: 'mainPorto',
   components: {
     cardArticle,
+    postCol,
   },
 
 }
