@@ -1,0 +1,127 @@
+@import './variablesPorto.scss';
+
+#footerCol {
+  padding-top: 80px;
+  display: flex;
+  gap: 20px;
+
+   h4 {
+    font-size: 0.8em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+}
+
+
+.col-one {
+  width: 35%;
+ 
+  p {
+    color: #777;
+    font-size: 0.8em;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.8em;
+
+    .i-style {
+      font-size: 0.8em;
+      margin-left: 2px;
+    }
+  }
+}
+
+.col-two {
+  width: 25%;
+  .footer-post-row {
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .img-foot-row {
+    margin-right: 15px;
+    img {
+      width: 70px;
+      border-radius: 50%;
+    }
+  }
+
+  .foot-text-post {
+    p {
+      color: #b7b7b7;
+      margin-bottom: 15px;
+      font-size: 0.8em;
+      font-weight: 600;
+    }
+
+    span {
+      color: #888888;
+      font-size: 0.7em;
+    }
+  }
+}
+
+.col-three {
+    width: 25%;
+    .foot-comment-row {
+      margin-bottom: 30px;
+    }
+    .comment {
+      font-size: 0.8em;
+      color: #b7b7b7;
+      margin-bottom: 15px;
+      
+      .i-style {
+      color: $blue-porto;
+      margin-right: 10px;
+      }
+
+      span {
+        font-weight: 600;
+      }
+
+      a {
+      color: $blue-porto;
+      text-decoration: none;
+      font-weight: 600;
+      }
+    }
+
+    .h-comment {
+      color: #888888;
+      font-size: 0.7em;
+    } 
+  
+}
+
+.col-four {
+  width: 20%;
+
+  .tag-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tag {
+    margin-right: 10px;
+    margin-bottom: 18px;
+    a {
+      padding: 7px;
+      background-color: #000;
+      border-radius: 5px;
+      font-size: 0.7em;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
