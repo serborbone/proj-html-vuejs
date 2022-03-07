@@ -1,0 +1,44 @@
+.footer-bottom {
+  height: 100px;
+  background-color: #1c2023;
+
+  .display-rules {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  #logo-footer {
+    width: 80px;
+
+    img {
+      width: 100%;
+    }
+    margin-right: 50px;
+  }
+
+  .copyright {
+    font-size: 0.8em;
+    color: #444;
+    margin-bottom: 10px;
+  }
+
+  .menu-foot-bottom {
+    margin-bottom: 10px;
+    margin-left: auto;
+    span {
+        font-size: 0.75em;
+        color: #444;
+
+      .i-style {
+        color: #777;
+      }  
+      a {
+        margin-left: 6px;
+        margin-right: 20px;
+        color: #555;
+        text-decoration: none
+      }
+    }
+  }
+}  
