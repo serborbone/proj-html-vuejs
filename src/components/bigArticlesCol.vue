@@ -7,6 +7,7 @@
       </div>
 
       <div class="r-social-sect">
+          <socialCol></socialCol>
       </div>
     </div>
   </div>
@@ -15,11 +16,13 @@
 <script>
 
 import bigArticle from '../assets/partials/bigArticle.vue'
+import socialCol from '../assets/partials/socialCol.vue'
 
 export default {
   name: 'bigArticlesCol',
   components: {
     bigArticle,
+    socialCol,
   }
 }
 </script>
