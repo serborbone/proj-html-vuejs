@@ -301,6 +301,16 @@
     </div>
     <!-- FINE CONTAINER ARTICLE -->
 
+    <!-- BUTTON CHANGE PAGE -->
+    <div class="btn-page">
+        <span class="btn"><i class="arr fa-solid fa-chevron-left"></i></span>
+        <span class="btn">1</span>
+        <span class="btn">2</span>
+        <span class="btn">3</span>
+        <span class="btn"><i class="arr fa-solid fa-chevron-right"></i></span>
+    </div>
+    <!-- FINE BUTTON CHANGE PAGE -->
+
   </div>
 </template>
 

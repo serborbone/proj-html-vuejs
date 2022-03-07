@@ -107,3 +107,25 @@
   }
 
 }
+
+.btn-page {
+  float: right;
+  margin-top: 50px;
+  .btn {
+    border: 1px solid #ededed;
+    font-size: 0.8em;
+    padding: 8px 12px;
+    color: $blue-porto;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: $blue-porto;
+    color: #fff;
+  }
+
+  .btn .arr {
+    font-size: 0.75em;
+  }
+}
