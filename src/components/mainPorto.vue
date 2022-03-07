@@ -2,7 +2,7 @@
   <main>
 
     <section>
-      <div id="jumbotron">
+      <div id="jumbotron" class="padding-section">
 
         <cardArticle></cardArticle>
 
@@ -10,13 +10,19 @@
     </section>
 
     <section>
-        <div id="post-columns">
+        <div class="padding-section">
             <postCol></postCol>
         </div>
     </section>
 
     <section>
         <tagBar></tagBar>
+    </section>
+
+    <section>
+        <div class="padding-section">
+            <bigArticlesCol></bigArticlesCol>
+        </div>
     </section>
 
   </main>
@@ -27,6 +33,7 @@
 import cardArticle from './cardArticle.vue'
 import postCol from './postCol.vue'
 import tagBar from './tagBar.vue'
+import bigArticlesCol from './bigArticlesCol.vue'
 
 export default {
   name: 'mainPorto',
@@ -34,6 +41,7 @@ export default {
     cardArticle,
     postCol,
     tagBar,
+    bigArticlesCol,
   },
 
 }

@@ -1,0 +1,93 @@
+@import './variablesPorto.scss';
+
+.article-wrap {
+
+  .img-bigart {
+    height: 420px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .info-art {
+    margin-top: 20px;
+    display: flex;
+    .date-art {
+      width: 45px;
+      text-align: center;
+
+      .day {
+        background-color: #f7f7f7;
+        font-weight: 700;
+        padding: 15px 0;
+        font-size: 0.9em;
+      }
+
+      .month {
+        font-size: 0.6em;
+        text-transform: uppercase;
+        padding: 3px 0;
+        background-color: #212529;
+        color: #fff;
+      }
+    }
+
+    .text-art {
+      width: 100%;
+      margin-left: 25px;
+      border-bottom: 1px solid #e2e2e2;
+      padding-bottom: 32px;
+
+      h3 {
+        font-size: 1.4em;
+        margin-bottom: 17px;
+      }
+
+      p {
+        font-size: 0.9em;
+        line-height: 25px;
+        margin-bottom: 20px;
+        color: #777777;
+      }
+
+      .info-text {
+          font-size: 0.82em;
+          color: #777777;
+
+          .i-color {
+            margin-right: 5px;
+            color: #b7b7b7;
+          }
+
+          span {
+            margin-right: 14px;
+            a {
+              color: $blue-porto;
+              text-decoration: none;
+            }
+          }
+
+          .read-btn {
+            text-transform: uppercase;
+            font-size: 0.85em;
+            float: right;
+            a {
+              border: 1px solid #b7b7b7;
+              border-radius: 4px;
+              padding: 5px 7px;
+              color: #777;
+            }
+          }
+
+          .read-btn::after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+      }
+    }
+  }
+
+}
