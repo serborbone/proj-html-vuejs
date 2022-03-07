@@ -1,7 +1,12 @@
 @import './variablesPorto.scss';
 
-.article-wrap {
+.article-wrap:first-child {
+  margin-top: 0;
+}
 
+.article-wrap {
+  margin-top: 50px;
+  
   .img-bigart {
     height: 420px;
     img {
@@ -11,8 +16,19 @@
     }
   }
 
+  .four-img {
+    height: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      width: calc(100% / 3);
+      // height: 100%;
+      object-fit: cover;
+    }
+  }
+
   .info-art {
-    margin-top: 20px;
+    margin-top: 25px;
     display: flex;
     .date-art {
       width: 45px;
@@ -42,18 +58,18 @@
 
       h3 {
         font-size: 1.4em;
-        margin-bottom: 17px;
+        margin-bottom: 15px;
       }
 
       p {
-        font-size: 0.9em;
+        font-size: 0.85em;
         line-height: 25px;
         margin-bottom: 20px;
         color: #777777;
       }
 
       .info-text {
-          font-size: 0.82em;
+          font-size: 0.75em;
           color: #777777;
 
           .i-color {
