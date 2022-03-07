@@ -3,7 +3,7 @@
       <div id="footerCol">
         <div class="container-w75">
           <!-- FOOTER TOP -->
-          <footerCol></footerCol>
+          <footerCol :colOne="colOne" :colTwo="colTwo" :colThree="colThree" :colFour="colFour"></footerCol>
 
         </div>
 
@@ -42,6 +42,89 @@ export default {
 
   components: {
     footerCol,
+  },
+
+  data() {
+    return {
+
+      colOne: [
+        {
+          blogText: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus perspiciatis ducimus accusamus perferendis quaerat cum quis eius.',
+        },
+        {
+          blogText: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus perspiciatis ducimus accusamus perferendis quaerat cum quis eius.',
+        },
+      ],
+
+      colTwo: [
+        {
+          img: 'our-office-4-square.jpg',
+          text: 'Lorem ipsum dolor sit, consectetur adipisicing elit.',
+          dataHour: '12:53 AM Dec 19th',
+        },
+         {
+          img: 'our-office-5-square.jpg',
+          text: 'Lorem ipsum dolor sit, consectetur adipisicing elit.',
+          dataHour: '12:53 AM Dec 19th',
+        },
+      ],
+
+      colThree: [
+        {
+          author: 'John Doe',
+          link: ' lorem ipsum dolor sit amet.',
+          dataAndHour: '12.55 A Dec 19th',
+        },
+        {
+          author: 'John Doe',
+          link: ' lorem ipsum dolor sit amet.',
+          dataAndHour: '12.55 A Dec 19th',
+        },
+      ],
+
+      colFour: [
+        {
+          tag: 'Gadgets',
+        },
+        {
+          tag: 'Photography',
+        },
+        {
+          tag: 'Lifestyle',
+        },
+        {
+          tag: 'Fashion',
+        },
+        {
+          tag: 'Recipes',
+        },
+        {
+          tag: 'Travel',
+        },
+        {
+          tag: 'Business',
+        },
+        {
+          tag: 'Architecture',
+        },
+        {
+          tag: 'Reviews',
+        },
+        {
+          tag: 'Sports',
+        },
+        {
+          tag: 'Videos',
+        },
+        {
+          tag: 'Technology',
+        },
+        {
+          tag: 'Design',
+        },
+
+      ],
+    }
   }
 }
 </script>
